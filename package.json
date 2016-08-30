@@ -4,12 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.3"
+    "bluebird": "3.4.3",
+    "body-parser": "1.15.2",
+    "chance": "1.0.4",
+    "express": "4.13.3",
+    "joi": "9.0.4",
+    "jsonwebtoken": "7.1.9",
+    "knex": "0.11.10",
+    "lodash": "4.0.0",
+    "node-fetch": "1.6.0",
+    "nodemon": "1.10.2",
+    "passport": "0.3.2",
+    "passport-facebook": "2.1.1",
+    "passport-google-oauth20": "1.0.0",
+    "passport-local": "1.0.0",
+    "pg": "6.1.0",
+    "uuid": "2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "3.4.0",
+    "eslint-config-airbnb-base": "5.0.3",
+    "eslint-plugin-import": "1.14.0"
   }
 }
